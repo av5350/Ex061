@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/MainActivity">
 
     <Space
         android:layout_width="0px"
@@ -26,31 +27,31 @@
             android:id="@+id/swBtn"
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="2"
-            android:text="Switch" />
+            android:layout_weight="3" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="9" />
+            android:layout_weight="5" />
 
         <ToggleButton
             android:id="@+id/tb"
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="5"
+            android:layout_weight="7"
             android:text="ToggleButton" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="9" />
+            android:layout_weight="5" />
 
         <Button
             android:id="@+id/clickBtn"
             android:layout_width="match_parent"
             android:layout_height="0px"
-            android:layout_weight="5"
+            android:layout_weight="10"
+            android:onClick="showBackground"
             android:text="Click" />
 
         <Space
