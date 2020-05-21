@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         swBtn = (Switch) findViewById(R.id.swBtn);
         MainActivity = (LinearLayout) findViewById(R.id.MainActivity);
     }
-    // a
+    
     public void showBackground(View view) {
         if (tb.isChecked() && swBtn.isChecked()){
             MainActivity.setBackgroundColor(Color.parseColor("#eaff7b"));
